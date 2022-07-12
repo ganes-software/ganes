@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+header{
+    width: 100vw;
+}
+
+header .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .container nav.navBar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header .container nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header .container nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 24px;
+}
+
+header .container nav ul li .carrinho{
+    position: absolute;
+    right: 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.teste {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(139, 23, 23);
+}
+
+#logo {
+    width: 90px;
+    height: auto;
+}
+
+#Ganes {
+    margin-left: 10px;
+    width: 150px;
+    height: auto;
+}
+
+#fundo {
+    width: 100vw;
+    max-height: 370px;
+}
+
+#carrinho{
+    width: 45px;
+    height: 45px;
+}
