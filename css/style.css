@@ -4,72 +4,102 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Arial', sans-serif;
 }
-header{
+
+header {
     width: 100vw;
+    height: auto;
 }
 
 header .container {
-    position: relative;
     display: flex;
     align-items: center;
-    width: 100%;
+    /* padding: 10px 10px; */
+    width: 100vw;
 }
 
-header .container nav.navBar {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-header .container nav ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    
-}
-
-header .container nav ul li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    font-size: 24px;
-}
-
-header .container nav ul li .carrinho{
-    position: absolute;
-    right: 50px;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.teste {
-    width: 100%;
+header .barra {
+    width: 100vw;
     height: 35px;
     background-color: rgb(139, 23, 23);
 }
 
-#logo {
+header .container .img-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+header .container .img-header #logo {
     width: 90px;
     height: auto;
 }
+header .container .img-header #ganes {
+    width: 200px;
+    height: 80px;
+}
 
-#Ganes {
-    margin-left: 10px;
+header .container .navBar {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+header .container nav ul {
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header .container nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
+    font-size: 30px;
+}
+
+header .container nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+header .container nav ul li #carrinho {
+    width: 45px;
+    height: 45px;
+}
+
+section.background-section #fundo {
+    width: 100%;
     height: auto;
 }
 
-#fundo {
-    width: 100vw;
-    max-height: 370px;
+.container-livros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
 }
 
-#carrinho{
-    width: 45px;
-    height: 45px;
+.container-livros #livros {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 700px;
+    background-color: rgb(139, 23, 23);
+    border-radius: 50px;
+    /* padding: 10px 10px 20px 30px;   */
+    /* topo, direita, baixo, esquerda */
+}
+
+.container-livros #livros h1{
+    font-size: 45px;
+    color: white;
+    height: 55px;
 }
