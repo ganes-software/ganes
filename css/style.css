@@ -37,6 +37,7 @@ header .container .img-header #logo {
     width: 90px;
     height: auto;
 }
+
 header .container .img-header #ganes {
     width: 200px;
     height: 80px;
@@ -80,16 +81,17 @@ section.background-section #fundo {
     height: auto;
 }
 
-.container-livros {
+.section-livros {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
 }
 
-.container-livros #livros {
+.section-livros .container-livros {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 1100px;
     height: 700px;
     background-color: rgb(139, 23, 23);
@@ -98,8 +100,37 @@ section.background-section #fundo {
     /* topo, direita, baixo, esquerda */
 }
 
-.container-livros #livros h1{
+.section-livros .container-livros .titulo {
     font-size: 45px;
     color: white;
     height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.livraria {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.livraria .destaques .container-ancora{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.livraria .ancora{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 250px;
+    text-decoration: none;
+}
+
+.aaa {
+    width: 250px;
+    height: 380px;
 }
